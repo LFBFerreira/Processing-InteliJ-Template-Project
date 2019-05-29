@@ -24,4 +24,4 @@ For example, for Windows x64 you will need:
  - jogl-all.jar
  - jogl-all-natives-windows-amd64.jar
 
-Processing version used: 3.5.3
+Processing version: 3.5.3
