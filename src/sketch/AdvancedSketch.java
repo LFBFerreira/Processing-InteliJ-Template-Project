@@ -4,6 +4,8 @@ import processing.core.PApplet;
 
 public class AdvancedSketch extends PApplet {
 
+    private String text = "";
+
     /**
      * Static Launcher that creates an instance of the sketch and launches it
      *
@@ -14,8 +16,6 @@ public class AdvancedSketch extends PApplet {
 
         runSketch(new String[]{""}, advancedSketch);
     }
-
-    private String text = "";
 
     /**
      * Constructor
@@ -42,5 +42,4 @@ public class AdvancedSketch extends PApplet {
     public void draw() {
 
     }
-
 }
