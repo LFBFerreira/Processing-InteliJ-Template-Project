@@ -29,7 +29,7 @@ public class AdvancedSketch extends PApplet {
     // ---------------------------------------------------------------------------------------------------------------
 
     public void settings() {
-        size(400, 400);
+        size(400, 400, P3D);
     }
 
     public void setup() {
