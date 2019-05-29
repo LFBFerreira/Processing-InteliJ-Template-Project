@@ -16,10 +16,12 @@ There are two examples:
  
 ## Support Libraries
 
-The P2D renderer only needs the Process Core library, but the P3D renderer needs OpenGL libraries. All necessary libraries for all Processing compatible OSs are in the *lib/* and have all been to the PATH. Remove the ones not necessary for your OS.
+The P2D renderer only needs the Processing Core library, but the P3D renderer also needs OpenGL libraries. All necessary libraries for all Processing compatible OSs are in the *lib/* and have all been to the PATH. Remove the ones not necessary for your OS
 For example, for Windows x64 you will need: 
  - core.jar
  - gluegen-rt.jar
  - gluegen-rt-natives-windows-amd64.jar
  - jogl-all.jar
  - jogl-all-natives-windows-amd64.jar
+
+Processing version used: 3.5.3
